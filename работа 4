@@ -27,10 +27,10 @@ bool ValidatePassword(const string& password)
         cin >> password;
 
         if (ValidatePassword(password)) {
-            cout << "Пароль допустим." << std::endl;
+            cout << "Пароль допустим." << endl;
         }
         else {
-            cout << "Пароль недопустим." << std::endl;
+            cout << "Пароль недопустим." << endl;
         }
 
         return 0;
